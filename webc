@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -ti $(docker ps -f name=craftdidxss_app_1 -q) bash
